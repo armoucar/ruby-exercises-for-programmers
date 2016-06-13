@@ -3,11 +3,10 @@
 # * Keep the calculations separate from the output.
 # * Use a constant to hold the conversion factor.
 
-puts "What is the length of the room in feet?"
-length = gets.chomp
+require_relative '../chapter-2/numeric_functions'
 
-puts "What is the width of the room in feet?"
-width = gets.chomp
+length = get_number_from_user_input "What is the length of the room in feet?"
+width = get_number_from_user_input "What is the width of the room in feet?"
 
 square_feet = length.to_i * width.to_i
 
