@@ -1,4 +1,2 @@
 puts "What's your name?"
-name = gets.chomp
-
-puts "Hello #{name}, nice to meet you."
+puts "Hello #{gets.chomp}, nice to meet you."
