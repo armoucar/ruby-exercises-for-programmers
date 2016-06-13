@@ -29,7 +29,7 @@ class PizzaParty
   end
 
   def order_pizzas?
-    @option.eql? "1"
+    @option.eql? "2"
   end
 
   def input
